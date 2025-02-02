@@ -2,7 +2,11 @@
   {% for content in data[1] %}
     <li class="list-group-item">
       <div class="row">
-        <div class="col-xs-2 cl-sm-2 col-md-2 text-center date-column">
+        {% assign v = 'hidden' %}
+        {% if content.startDate %}
+          {% assign v = 'visible' %}
+        {% endif %}
+        <div class="col-xs-2 cl-sm-2 col-md-2 text-center date-column", style="visibility: {{ v }}">
           {% if content.startDate %}
             {% assign startDate = content.startDate | split: '-' | slice: 0, 2 | join: '.' %}
             {% assign endDate = content.endDate | split: '-' | slice: 0, 2 | join: '.' | default: 'Present' %}

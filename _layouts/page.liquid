@@ -18,6 +18,8 @@ layout: default
     {{ content }}
   </article>
 
+  {% comment %} 
+  {% raw %}
   {% if page.related_publications %}
     <h2>References</h2>
     <div class="publications">
@@ -28,4 +30,6 @@ layout: default
   {% if site.giscus and page.giscus_comments %}
     {% include giscus.liquid %}
   {% endif %}
+  {% endraw %}
+  {% endcomment %}
 </div>
