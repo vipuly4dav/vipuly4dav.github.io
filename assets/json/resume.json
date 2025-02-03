@@ -42,16 +42,17 @@
     {
       "name": "Credit Card Fraud Detection",
       "summary": "",
-      "highlights": ["point 1", "point 2"],
+      "highlights": ["built a program using machine learning techniques to detect fraudulent transactions using a dataset from kaggle",
+      "achieved more than 80% detection of fraudulent transactions on unseen data without compromising on precision"],
       "url": "/projects/project_credit_card_fraud_detection/"
     }
   ],
   "awards": [
     {
-      "title": "GATE (XH-Economics) All India Rank 1",
+      "title": "GATE All India Rank 1",
       "date": "2022",
       "awarder": "",
-      "summary": ""
+      "summary": "XH-Economics"
     },
     {
       "title": "Academic Excellence Prize",
@@ -99,11 +100,11 @@
   ],
   "interests": [
     {
-      "name": "Touring on motorcycle",
+      "name": "Motorcycling",
       "icon": "🏍️"
     },
     {
-      "name": "Finding an alternative to Notion",
+      "name": "Knowledge Organization",
       "icon": "🤔"
     }
   ],

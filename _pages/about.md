@@ -30,4 +30,4 @@ I have a Master's in Economics and Bachelor's in Engineering, with an excellent 
 
 I love riding my bike and have gone on a few long distance tours with it. I am always on lookout for the perfect app to save all my notes, and after trying OneNote, Obsidian and LogSeq, currently stuck with Notion.
 
-I am currently 👨🏻‍💻 open to work, preferably in deriving insights from data. For more details, have a look at my <a href='cv'>resume</a> or contact me!
+I am currently 👨🏻‍💻 open to work, preferably in deriving insights from data. For more details, have a look at my <a href='\cv'>resume</a> or contact me!

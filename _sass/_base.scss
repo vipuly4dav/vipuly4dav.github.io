@@ -195,6 +195,7 @@ ul.task-list input[type="checkbox"] {
 
 .profile {
   width: 100%;
+  text-align: center;
 
   .more-info {
     margin-bottom: 5px;
@@ -206,10 +207,16 @@ ul.task-list input[type="checkbox"] {
       margin: 0;
     }
   }
+
+  @media (max-width: 576px) {
+    .more-info {
+      display: none;
+    }
+  }
 }
 
 .profile.float-right {
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 .profile.float-left {
@@ -517,7 +524,7 @@ footer.sticky-bottom {
 
 @media (max-width: 576px){
   footer.fixed-bottom, footer.sticky-bottom{
-    visibility: hidden;
+    display: none;
   }
 }
 
@@ -529,6 +536,7 @@ footer.sticky-bottom {
   .card {
     background-color: var(--global-card-bg-color);
     border: 1px solid var(--global-divider-color);
+    border-radius: 10px;
 
     .list-group-item {
       background-color: inherit;
