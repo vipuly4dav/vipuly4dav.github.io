@@ -194,8 +194,6 @@ ul.task-list input[type="checkbox"] {
 // Profile
 
 .profile {
-  width: 100%;
-  text-align: center;
 
   .more-info {
     margin-bottom: 5px;
@@ -224,14 +222,30 @@ ul.task-list input[type="checkbox"] {
 }
 
 @media (min-width: 576px) {
-  .profile {
+  .full-profile {
     width: 30%;
+    text-align: center;
 
     .address {
       p {
         display: block;
       }
     }
+  }
+  .small-profile{
+    display: none;
+  }
+
+
+}
+
+@media (max-width: 575px) {
+  .full-profile {
+    display: none;
+  }
+  .small-profile{
+    width:70%;
+    text-align: left;
   }
 }
 
