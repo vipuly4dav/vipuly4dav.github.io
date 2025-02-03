@@ -399,10 +399,10 @@ ul.task-list input[type="checkbox"] {
 // Social (bottom)
 
 .social {
-  text-align: center;
+  text-align: left;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 3rem;
 
     a {
       img {
@@ -474,18 +474,18 @@ ul.task-list input[type="checkbox"] {
 
 // Footer
 footer.fixed-bottom {
-  background-color: var(--global-footer-bg-color);
+  background-color: var(--global-bg-color);
   font-size: 0.75rem;
 
   .container {
-    color: var(--global-footer-text-color);
+    color: var(--global-text-color-light);
     padding-top: 9px;
     padding-bottom: 8px;
     text-align: center;
   }
 
   a {
-    color: var(--global-footer-link-color);
+    color: var(--global-theme-color);
 
     &:hover {
       color: var(--global-theme-color);
@@ -494,14 +494,30 @@ footer.fixed-bottom {
   }
 }
 
+// added this to change the color and text size of the footer
 footer.sticky-bottom {
-  border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 0.9rem;
-
+  // border-top: 1px solid var(--global-divider-color);
+  padding-top: 9px;
+  padding-bottom: 8px;
+  font-size: 0.75rem;
+  
   .container {
+    color: var(--global-text-color-light);
     text-align: center;
+  }
+
+  a{
+    color: var(--global-theme-color);
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
+  }
+}
+
+@media (max-width: 576px){
+  footer.fixed-bottom, footer.sticky-bottom{
+    visibility: hidden;
   }
 }
 
@@ -1072,7 +1088,7 @@ nav[data-toggle="toc"] {
 
   .nav > li > a {
     color: var(--global-text-color);
-    font-size: 0.75rem;
+    font-size: 0.9rem; // increase size of toc items in cv
 
     &:hover {
       color: var(--global-hover-color);
@@ -1083,7 +1099,7 @@ nav[data-toggle="toc"] {
   .nav-link.active {
     color: var(--global-theme-color);
     border-left-color: var(--global-theme-color);
-    font-size: 0.75rem;
+    font-size: 1rem; // upon selection of toc item, it's size will increase
 
     &:hover {
       color: var(--global-hover-color);
