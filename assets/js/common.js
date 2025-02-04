@@ -28,8 +28,28 @@ $(document).ready(function () {
     Toc.init($myNav);
     $("body").scrollspy({
       target: navSelector,
+      offset: 200,
     });
   }
+
+  // custom function to scroll till below the header
+  let header = document.querySelector('#navbar');
+  let headerHeight = header.offsetHeight;
+
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        let targetElement = document.querySelector(this.getAttribute('href'));
+
+        let targetPosition = targetElement.getBoundingClientRect().top - headerHeight - 25;
+        // 50 is a little offset which can be changed to something dynamic later   
+        window.scrollTo({
+            top: targetPosition + window.scrollY,
+            behavior: 'smooth'
+        });
+    });
+  });
 
   // add css to jupyter notebooks
   const cssLink = document.createElement("link");
