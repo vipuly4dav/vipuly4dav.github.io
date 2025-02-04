@@ -6,7 +6,7 @@
     <div class="navbar-brand social">
       <a href="{{ site.baseurl }}/">
       <svg>
-        <image xlink:href="/assets/img/logo.svg" />
+        <image xlink:href="{{ site.icon | prepend: '/assets/img/' | relative_url | bust_file_cache}}" />
       </svg>
       </a>
     </div>

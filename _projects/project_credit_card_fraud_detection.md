@@ -7,7 +7,8 @@ importance: 1
 related_publications: false
 toc : true
 ---
-    
+
+See the notebook <a href="/assets/html/credit_card_fraud_detection.html"> here </a> 
 # Introduction
 With the growth in spread of digital payment technology, cases of digital fraud are also on the rise. It is imperative that systems have and will be evolved to tackle the problem of fraudulent transactions. In this vein, this project takes up a credit card dataset from kaggle and tries to evolve a machine learning program that can identify fraudulent transactions. Informally speaking, a program is needed that will find transactions which are fraudulent, depending on various data points associated with a given transaction, before the transaction has completed.
 
