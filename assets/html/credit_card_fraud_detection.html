@@ -8164,7 +8164,7 @@ Name: proportion, dtype: float64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Over the period of data collection, from the total transacation value of $25,162,590, $60,128 was involved in fraudulent transactions, which amount to 0.24% of total transaction value.</p>
+<p>Over the period of data collection, from the total transaction value of $25,162,590, $60,128 was involved in fraudulent transactions, which amount to 0.24% of total transaction value.</p>
 </div>
 </div>
 </div>
@@ -9040,9 +9040,9 @@ Name: count, dtype: int64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Evaluation Metrics</strong> : Average Precision (discretized version of PR AUC) and F2 score</p>
-<p><strong>Reason</strong> : We need high recall in this situation in order to detect all truly fraudulent transactions. However, due to precision-recall tradeoff, a high recall will adversely impact precision. This would translate to poor user experience as many genuine transaction would be classified as fraudulent. So we need an evaluation metric that takes into consideration both precision and recall and that which focuses more on positive class.</p>
-<p>F1 score and PR AUC are two such metrics. F1 will favour precision and recall having similar values, but there is no such consideration required in this scenario. We are vying for a higher recall. PR AUC will be a summary metric that will take into account all thresholds and resulting precision and recall. Instead of F1 score, we can use F2 score which will give more importance to recall over precision.</p>
+<p><strong>Selected Evaluation Metrics</strong> : Average Precision (discretized version of PR AUC) and F2 score</p>
+<p><strong>Reason</strong> : We need high recall in this situation in order to detect all true fraudulent transactions. However, due to precision-recall tradeoff, a high recall will adversely impact precision. This would translate to poor user experience as many genuine transaction would be classified as fraudulent. So we need an evaluation metric that takes into consideration both precision and recall and that which focuses more on positive class.</p>
+<p>F1 score and PR AUC are two such metrics. F1 will favour precision and recall having similar values, but there is no such consideration required in this scenario. We are vying for a higher recall. Instead of F1 score, we can use F2 score which will give more importance to recall over precision. PR AUC will be a summary metric that will take into account all thresholds and resulting precision and recall.</p>
 </div>
 </div>
 </div>
