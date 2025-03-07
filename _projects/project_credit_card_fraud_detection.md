@@ -6,7 +6,6 @@ img: /assets/img/credit_card_fraud_detection/cover_image.png
 importance: 1
 related_publications: false
 toc : true
-category: machine learning
 ---
 
 See the jupyter notebook <a href="/assets/html/credit_card_fraud_detection.html"> here </a> 
