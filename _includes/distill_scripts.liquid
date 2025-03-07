@@ -1,9 +1,9 @@
-<!-- jQuery -->
+{% comment %} <!-- jQuery -->
 <script
   src="{{ site.third_party_libraries.jquery.url.js }}"
   integrity="{{ site.third_party_libraries.jquery.integrity.js }}"
   crossorigin="anonymous"
-></script>
+></script> {% endcomment %}
 
 <!-- Bootsrap & MDB scripts -->
 <script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
@@ -161,7 +161,7 @@
 
 <!-- Removed Badges -->
 
-{% if site.enable_math %}
+{% if page.enable_math or ((page.enable_math == nil) and site.enable_math) %}
   <!-- MathJax -->
   <script
     defer
