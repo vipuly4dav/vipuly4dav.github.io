@@ -42,9 +42,16 @@
     {
       "name": "Credit Card Fraud Detection",
       "summary": "",
-      "highlights": ["built a program using machine learning techniques to detect fraudulent transactions using a dataset from kaggle",
-      "achieved more than 80% detection of fraudulent transactions on unseen data without compromising on precision"],
+      "highlights": ["Built a program using machine learning techniques to detect fraudulent transactions using a dataset from kaggle",
+      "Achieved more than 80% detection of fraudulent transactions on unseen data without compromising on precision"],
       "url": "/projects/project_credit_card_fraud_detection/"
+    },
+    {
+      "name": "Beauty Inc. Dashboard",
+      "summary": "",
+      "highlights": ["Analysed data from a beauty products brand to derive insights on trends across categories, markets, segments etc.","Recommended actions to achieve set targets",
+      "Designed a dashboard using Tableau to visualize the insights for the stakeholders"],
+      "url": "/projects/project_beauty_inc_dashboard/"
     }
   ],
   "awards": [
@@ -87,14 +94,14 @@
       "level": "Intermediate",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Python","Pandas","Numpy","Scikit-learn","Matplotlib","Seaborn","Tensorflow","Jupyter Notebook","VS Code"
+        "Python","Pandas","Numpy","Scikit-learn","Matplotlib","Seaborn","Tensorflow","Jupyter Notebook","VS Code","Streamlit"
       ]
     },
     {
       "name": "Data visualization",
       "level": "Intermediate",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["Tableau","Plotly","Matplotlib","Seaborn"]
+      "keywords": ["Tableau","Plotly","Matplotlib","Seaborn","Excel"]
     }
 
   ],
@@ -104,7 +111,7 @@
       "icon": "🏍️"
     },
     {
-      "name": "Knowledge Organization",
+      "name": "Personal Knowledge Organization",
       "icon": "🤔"
     }
   ],

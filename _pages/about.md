@@ -6,7 +6,7 @@ subtitle: Economics @ <a href='https://jnu.ac.in'>JNU, Delhi</a> | Engineering @
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_2.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Delhi, India</p>

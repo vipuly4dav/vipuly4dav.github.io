@@ -2,7 +2,7 @@
 layout: distill
 title: Credit Card Fraud Detection
 description:
-img: /assets/img/credit_card_fraud_detection/cover_image.png
+img: /assets/img/credit_card_fraud_detection/cover_image_2.png
 importance: 1
 related_publications: false
 toc : true

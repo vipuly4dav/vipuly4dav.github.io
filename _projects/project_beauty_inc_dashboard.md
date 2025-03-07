@@ -1,6 +1,6 @@
 ---
 layout: distill
-title: Beauty Inc Dashboard
+title: Beauty Inc. Dashboard
 description:
 img: assets/img/beauty_inc_dashboard/dashboard_thumbnail_square.png
 importance: 2
@@ -83,9 +83,9 @@ The average order value in `Africa` is $213, which is lower than the world avera
 
 #### Recommendation 
 
-Focus on increasing average order value by building customer loyalty. With customer’s making repeat purchases, average order value will increase.
+We can focus on increasing average order value by building customer loyalty. With customer’s making repeat purchases, average order value will increase.
 
-### Annual Overall Sales Growth of 20% with a higher target of 30% for `Corporate` segment
+### Annual Overall Sales Growth of 20% (30% for `Corporate` segment)
 
 The annual overall sales growth target of 20% was met in all years starting from 2021 till 2023. However, the `Corporate` sales growth target of 30% has not been achieved yet in any year. In the most recent 2 years (2022 and 2023), `Corporate` sales growth has hovered around 25%.
 
@@ -97,9 +97,9 @@ The average order value within the `Corporate` segment is $497, much higher than
 
 The discount has varied between 20-25% which is on par with the average discounting strategy.
 
-**Recommendation**
+#### Recommendation
 
-In order to increase sales, a higher discounting strategy for corporate segment can be explored.
+In order to increase sales and align with the growth target, a higher discounting strategy for corporate segment can be explored.
 
 ### Average Annual Profit Margin of 15% across all Categories and Subcategories
 
@@ -107,16 +107,13 @@ In order to increase sales, a higher discounting strategy for corporate segment 
 
 `Fragrances` (category: `Home and Accessories`) have been the worst-performing subcategory with a profit margin remaining below (-)15% in all years between 2020 and 2023. Similarly, all other subcategories in `Home and Accessories`, and `Hair care` category have either had negative profit margin or a sub-1% profit margin in all these years. In body care, `face mask and exfoliators` and `body moisturisers` have had a negative profit margin. In all other subcategories profit margin has been above 15%.
 
-**Recommendation**
+#### Recommendation
 
-In order to increase the overall profit margin, sales of `Home and Accessories` and `Hair care` category can be curtailed, or prices in these categories can be increased to boost the profit margin.
+To increase the overall profit margin, sales of `Home and Accessories` and `Hair care` category can be curtailed, or prices in these categories can be increased to boost the profit margin.
 
 --- 
 
 # Dashboard
-<!-- <tableau-viz id="tableauViz"       
-  src='https://public.tableau.com/shared/5MS3X77F9?:display_count=n&:origin=viz_share_link'>
-</tableau-viz> -->
 
 <div class='tableauPlaceholder' id='viz1741340600134' style='position: relative'><noscript><a href='#'><img alt='Product ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeautyIncDashboard&#47;Product&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='BeautyIncDashboard&#47;Product' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeautyIncDashboard&#47;Product&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' /></object></div>                
 
