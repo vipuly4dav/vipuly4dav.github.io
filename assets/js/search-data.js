@@ -23,7 +23,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "projects-credit-card-fraud-detection",
+        },{id: "projects-beauty-inc-dashboard",
+          title: 'Beauty Inc Dashboard',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/project_beauty_inc_dashboard/";
+            },},{id: "projects-credit-card-fraud-detection",
           title: 'Credit Card Fraud Detection',
           description: "",
           section: "Projects",handler: () => {
