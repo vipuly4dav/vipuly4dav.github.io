@@ -24,7 +24,7 @@ ninja.data = [{
             window.location.href = "/cv/";
           },
         },{id: "projects-beauty-inc-dashboard",
-          title: 'Beauty Inc Dashboard',
+          title: 'Beauty Inc. Dashboard',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/project_beauty_inc_dashboard/";
